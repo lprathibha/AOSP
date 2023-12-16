@@ -6,7 +6,11 @@
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-14.0.0_r15"
            remote="aosp"
-           sync-j="4" />
+	  sync-j="4" />
+
+	  <remote name="prathibha-github"
+    fetch="https://github.com/lprathibha/AOSP.git"
+    revision="refs/heads/mainline" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-14.0.0_r15"/>
   <contactinfo bugurl="go/repo-bug" />
